@@ -1,3 +1,26 @@
-[gd_scene format=3 uid="uid://c2va61rhp32ak"]
+[gd_scene load_steps=2 format=3 uid="uid://c2va61rhp32ak"]
+
+[ext_resource type="Script" path="res://scripts/characters/Character.gd" id="1_i3x2w"]
 
 [node name="Character" type="Node2D"]
+script = ExtResource("1_i3x2w")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer"]
+visible = false
+offset_right = 4.0
+offset_bottom = 27.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
