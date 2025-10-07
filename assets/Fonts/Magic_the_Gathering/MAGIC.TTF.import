@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cxs2b8xdbp6xq"
-path="res://.godot/imported/MAGIC.TTF-511a63cce5e1434eb949737984a566b4.fontdata"
+path="res://.godot/imported/MAGIC.TTF-e57f9b7ed748b0d2a2a3548153aae4a8.fontdata"
 
 [deps]
 
-source_file="res://assets/Fonts/Magic_the_Gathering/MAGIC.TTF"
-dest_files=["res://.godot/imported/MAGIC.TTF-511a63cce5e1434eb949737984a566b4.fontdata"]
+source_file="res://assets/fonts/Magic_the_Gathering/MAGIC.TTF"
+dest_files=["res://.godot/imported/MAGIC.TTF-e57f9b7ed748b0d2a2a3548153aae4a8.fontdata"]
 
 [params]
 
